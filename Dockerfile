@@ -1,4 +1,4 @@
-FROM maven:3.5-jdk-8-alpine
+FROM maven:3.5-jdk-8
 ENV HOME /home/jenkins
 ARG AGENT_WORKDIR=/home/jenkins/agent
 COPY slave.jar /usr/share/jenkins/slave.jar
