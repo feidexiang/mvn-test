@@ -13,4 +13,3 @@ RUN mkdir /home/jenkins/.jenkins && mkdir -p ${AGENT_WORKDIR}
 VOLUME /home/jenkins/.jenkins
 VOLUME ${AGENT_WORKDIR}
 WORKDIR /home/jenkins
-ENTRYPOINT ["jenkins-slave"]
